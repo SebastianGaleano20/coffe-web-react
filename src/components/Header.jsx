@@ -13,7 +13,7 @@ function Header() {
           />
         </a>
       </div>
-      <h2>Bienvenido a Red cafe</h2>
+      <h3>Bienvenido a Red cafe</h3>
     </header>
   );
 }

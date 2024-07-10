@@ -1,9 +1,9 @@
-import CoffeGallery from './CoffeGallery.jsx';
+import styles from '../styles/styles.module.css'
 
 function Info() {
   return (
     <section>
-      <article>
+      <article className={styles.info}>
         <h1>The Red Cafe</h1>
         <p>
           Bienvenido a nuestra cafetería de especialidad, donde el arte del café
@@ -15,9 +15,6 @@ function Info() {
           a nosotros y descubre un lugar donde el café se convierte en una
           experiencia extraordinaria.
         </p>
-        <div>
-          <CoffeGallery />
-        </div>
       </article>
     </section>
   );
