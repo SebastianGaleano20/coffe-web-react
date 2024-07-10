@@ -6,14 +6,15 @@ import './styles/main.css';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <hr />
       <Info />
       <hr />
       <CoffeGallery />
+      <hr />
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -8,8 +8,8 @@ export default function Footer() {
     return (
         <>
             <footer>
+                <h4>Contacto</h4>
                 <div className={styles.contact}>
-                    <h4>Contacto</h4>
                     <ul>
                         <li><a href="#"><FaInstagram />Instagram</a></li>
                         <li><a href="#"><FaFacebookF />Facebook</a></li>
