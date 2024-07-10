@@ -3,26 +3,37 @@
   width: 100%;
   border-radius: 20px;
 }
-.info{
+
+.info {
   padding: 1em;
-  & p{
+
+  & p {
     font-size: 0.8rem;
   }
 }
+
 .logo {
   width: 100%;
   height: 100%;
 }
-.contact{
-  margin: 0.5em;
-  ul{
+
+.contact {
+  & h3{
+    margin: 0.3em;
+  }
+  ul {
     display: flex;
     flex-direction: row;
   }
-  ul li{
-    margin: 0.5em;
+
+  ul li {
+    margin: 0.2em;
     font-size: 0.8rem;
     list-style: none;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
 
@@ -34,10 +45,12 @@
   margin: 1em;
   padding: 0.5em;
   border-radius: 20px;
-  & h2{
+
+  & h2 {
     color: rgb(211, 214, 16);
   }
-   p {
+
+  p {
     font-weight: bolder;
   }
 }

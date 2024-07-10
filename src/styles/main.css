@@ -19,5 +19,9 @@ header {
   width: 100px;
 }
 footer{
-  background-color: black;
+  background-color: #131313;
+  padding: 0.5em;
+  & p{
+    font-size: 0.7rem;
+  }
 }
