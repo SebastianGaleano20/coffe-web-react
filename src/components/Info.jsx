@@ -1,4 +1,4 @@
-import Img from './Img.jsx';
+import CoffeGallery from './CoffeGallery.jsx';
 
 function Info() {
   return (
@@ -16,7 +16,7 @@ function Info() {
           experiencia extraordinaria.
         </p>
         <div>
-          <Img />
+          <CoffeGallery />
         </div>
       </article>
     </section>
