@@ -9,7 +9,7 @@ export default function Footer() {
         <>
             <footer>
                 <div className={styles.contact}>
-                    <h3>Contacto</h3>
+                    <h4>Contacto</h4>
                     <ul>
                         <li><a href="#"><FaInstagram />Instagram</a></li>
                         <li><a href="#"><FaFacebookF />Facebook</a></li>
@@ -18,7 +18,7 @@ export default function Footer() {
                         <li><a href="#"><MdOutlineMapsHomeWork />Direccion</a></li>
                     </ul>
                 </div>
-                <p>&copy; <span>2024</span> The Red Coffe. Todos los derechos reservados.</p>
+                <p>&copy; <span>2024</span> The Red Coffe. <br /> Todos los derechos reservados.</p>
             </footer>
         </>
     )
