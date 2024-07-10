@@ -1,10 +1,11 @@
-import styles from '../styles/styles.module.css'
+import styles from '../styles/styles.module.css';
+import { GiCoffeeBeans } from "react-icons/gi";
 
 function Info() {
   return (
     <section>
       <article className={styles.info}>
-        <h1>The Red Cafe</h1>
+        <h1><GiCoffeeBeans/> The Red Cafe <GiCoffeeBeans/></h1>
         <p>
           Bienvenido a nuestra cafetería de especialidad, donde el arte del café
           cobra vida con cada taza. En nuestro acogedor rincón, cada grano se

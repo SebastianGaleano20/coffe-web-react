@@ -1,4 +1,5 @@
 import '../styles/main.css';
+import { GiCoffeeBeans } from "react-icons/gi";
 import styles from '../styles/styles.module.css';
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
           />
         </a>
       </div>
-      <h3>Bienvenido a Red cafe</h3>
+      <h3><GiCoffeeBeans/> Bienvenido a Red cafe <GiCoffeeBeans/></h3>
     </header>
   );
 }

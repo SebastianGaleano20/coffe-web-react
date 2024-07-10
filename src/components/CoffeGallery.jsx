@@ -1,11 +1,12 @@
 import styles from '../styles/styles.module.css';
+import { GiCoffeeBeans } from "react-icons/gi";
 
 function CoffeGallery() {
   return (
     <>
       <article className={styles.imgContainer}>
         <div>
-          <h2>Arte latte y mucho mas</h2>
+          <h2><GiCoffeeBeans color='black'/> Arte latte y mucho mas</h2>
           <p>
             Veni a disfrutar del mejor cafe con su presentacion tan peculiar y brillante.
             En nuestra cafetería, el arte latte es más que una habilidad; es la expresión viva de nuestro compromiso con la excelencia y la creatividad. Nuestros talentosos baristas no solo dominan la técnica para crear impresionantes diseños en cada taza, sino que también infunden cada bebida con pasión y dedicación.
