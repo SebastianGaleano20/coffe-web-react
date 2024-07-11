@@ -20,7 +20,7 @@ header {
    }
 }
 .logo-container {
-  width: 80px;
+  width: 100px;
 }
 footer{
   background-color: #131313;
@@ -29,24 +29,22 @@ footer{
     font-size: 0.7rem;
   }
 }
-.img-container{
+.imgs-container{
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
   padding: 0.5em;
 }
-
+.art-container{
+  padding: 0.5em;
+}
 @media (min-width: 600px){
   header{
     justify-content: center;
     font-size: 1.3rem;
   }
-  .img-container{
-    display: grid;
+  .imgs-container{
     grid-template-columns: 1fr 1fr;
     gap: 1em;
-    align-items: center;
-    justify-items: center;
-    grid-area: 1 / 2 / 2 / 3 ;
   }
 }

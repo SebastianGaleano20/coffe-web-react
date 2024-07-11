@@ -14,7 +14,7 @@
 .info {
   display: grid;
   grid-template-columns: 100px 1fr;
-  padding: 1em;
+  padding: 0.5em;
   p {
     font-size: 0.9rem;
     font-weight: bold;
@@ -71,6 +71,7 @@
   }
 
   .imgContainer {
+    grid-template-columns: 500px 1fr;
     & h2 {
       margin: 1em;
     }
@@ -81,19 +82,19 @@
   }
 
   .info {
+    grid-template-columns: 2fr 1fr;
+    height: 500px;
     padding: 1em;
     font-size: 1.2rem;
-    background-image: url(https://gulasana.com/wp-content/uploads/2019/02/grano-de-cafe.jpg);
+    background-image: url(https://img.freepik.com/fotos-premium/banner-horizontal-taza-cafe-granos-cafe-espacio-copia-vista-superior-fondo-piedra-oscura_128650-1868.jpg?w=996);
     background-size: cover;
-  
     & p {
       font-size: 1rem;
     }
   }
-
+   
   .container {
-    border-radius: 5px;
-    background-color: #f0f8ffaf;
+    grid-area: 1 / 1 / 1 / 2 ;
   }
   .contact {
     ul li {
