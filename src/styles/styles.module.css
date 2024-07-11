@@ -3,22 +3,23 @@
   width: 100%;
   border-radius: 20px;
 }
-.title{
+
+.title {
   color: #ffffff;
   text-shadow: 2px 2px 2px red;
   text-transform: uppercase;
 }
 
-  .container {
-    border-radius: 5px;
-    background-color: #f0f8ffaf;
-  
-  }
+.container {
+  border-radius: 5px;
+  background-color: #f0f8ffaf;
+}
+
 .info {
   display: grid;
   grid-template-columns: 100px 1fr;
   padding: 1em;
-  
+
   background-image: url(https://gulasana.com/wp-content/uploads/2019/02/grano-de-cafe.jpg);
   background-size: cover;
 
@@ -60,17 +61,15 @@
 }
 
 .imgContainer {
-  background-color: rgb(112, 31, 31);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
   padding: 1em;
   color: #ffe9e9;
 
   p {
+    margin: 1em;
     font-size: 1rem;
     font-weight: bolder;
-    color: #ffe9e9;
   }
 }
 
@@ -81,10 +80,6 @@
   }
 
   .imgContainer {
-    display: grid;
-    grid-template-columns: 480px 1fr;
-    align-items: start;
-
     & h2 {
       margin: 1em;
     }
@@ -97,10 +92,12 @@
   .info {
     padding: 1em;
     font-size: 1.2rem;
+
     & p {
       font-size: 1rem;
     }
   }
+
   .contact {
     ul li {
       margin-left: 2em;
