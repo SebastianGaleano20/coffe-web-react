@@ -14,7 +14,7 @@ function Header() {
           />
         </a>
       </div>
-      <h2><GiCoffeeBeans/> Bienvenido a Red cafe</h2>
+      <h2><GiCoffeeBeans/>Cross The Red Line Drinking Red Coffe</h2>
     </header>
   );
 }
