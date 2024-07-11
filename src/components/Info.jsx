@@ -4,7 +4,7 @@ import { GiCoffeeBeans } from "react-icons/gi";
 function Info() {
   return (   
       <section className={styles.info}>
-        <h2 className={styles.title}>The Red Cafe</h2>
+        <h1 className={styles.title}>The Red Cafe</h1>
         <article className={styles.container}>
           <p>
             Bienvenido a nuestra cafetería de especialidad.
