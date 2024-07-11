@@ -15,9 +15,12 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+   & h2{
+    font-size: large;
+   }
 }
 .logo-container {
-  width: 90px;
+  width: 80px;
 }
 footer{
   background-color: #131313;

@@ -6,11 +6,9 @@ function CoffeGallery() {
     <>
       <article className={styles.imgContainer}>
         <div>
-          <h2><GiCoffeeBeans color='black'/> Arte latte y mucho mas</h2>
+          <h2 className={styles.title}><GiCoffeeBeans color='black'/>Arte latte</h2>
           <p>
-            Veni a disfrutar del mejor cafe con su presentacion tan peculiar y brillante.
             En nuestra cafetería, el arte latte es más que una habilidad; es la expresión viva de nuestro compromiso con la excelencia y la creatividad. Nuestros talentosos baristas no solo dominan la técnica para crear impresionantes diseños en cada taza, sino que también infunden cada bebida con pasión y dedicación.
-            Cada creación es una obra maestra, meticulosamente elaborada para deleitar tanto los ojos como el paladar de nuestros clientes. Descubre el arte del café en su máxima expresión en un ambiente acogedor y vibrante, donde cada visita es una experiencia única que te invita a disfrutar y compartir momentos especiales con cada sorbo.
             </p>
                     
         </div>
